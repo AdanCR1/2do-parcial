@@ -1,0 +1,169 @@
+body {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    gap: 20px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: -4px 5px 3px black;
+    padding: 10px 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: coral;
+}
+
+.educacion {
+    margin: 100px 0;
+    background-color: white;
+    color: black;
+    display: grid;
+    justify-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.bloque-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.img-edu {
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+}
+
+.img-edu img {
+    width: 100%;
+}
+
+.sec-edu {
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+}
+
+.fatek {
+    background-color: white;
+    display: grid;
+    justify-items: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.bloque-fat {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.imgs-fat {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    z-index: 2;
+}
+
+.imgs-fat img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.imgs-fat img:hover {
+    width: 40%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.p-fat {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 10%;
+    color: black;
+}
+
+h1 {
+    top: 30%;
+    margin-top: 80px;
+    font-size: 3em;
+    background: linear-gradient(360deg, black, coral, coral);
+    -webkit-background-clip: text;
+    color: transparent;
+    justify-content: center;
+    font-family: "Passion One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    color: coral;
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    color: orange;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.627);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.bloque-fot {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+}
+
+.bloque-fot a {
+    color: white;
+}
+
+.bloque-fot a:hover {
+    color: coral;
+}

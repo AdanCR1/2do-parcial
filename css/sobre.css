@@ -1,0 +1,44 @@
+.bloque-edu img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.bloque-sb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.p-sb {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    background-color: orange;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+}
+
+.p-sb:hover {
+    transform: translateY(-10px);
+}
+
+.p-sb p {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 1.4rem;
+    color: black;
+}
+
+h4 {
+    color: coral;
+    font-size: 2em;
+    text-shadow: 2px 2px 0 black;
+    text-align: center;
+}
+
+
